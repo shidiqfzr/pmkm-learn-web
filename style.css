@@ -1,21 +1,7 @@
-nav a {
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-nav a:hover {
-  font-weight: bold;
-}
-
 body {
   font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
-}
-
-main {
-  padding: 20px;
 }
 
 h2,
@@ -29,6 +15,16 @@ h3 {
   background-color: #00c8eb;
   text-align: center;
   color: white;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
 }
 
 nav li {
@@ -49,6 +45,10 @@ nav a {
   color: white;
 }
 
+main {
+  padding: 20px;
+}
+
 .featured-image {
   width: 100%;
   max-height: 500px;
@@ -56,19 +56,19 @@ nav a {
   object-position: center;
 }
 
-.profile img {
-  width: 200px;
-}
-
-.profile header {
-  text-align: center;
-}
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 20px;
   margin-top: 20px;
+}
+
+.profile img {
+  width: 150px;
+}
+
+.profile header {
+  text-align: center;
 }
 
 footer {
